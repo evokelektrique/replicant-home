@@ -36,3 +36,14 @@ html, body, select, input, textarea {
 .min-height-500 {
   min-height: 500px;
 }
+
+/* Boxes */
+#features .box {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f0f0f1;
+}
+#box-nodes { background-image: url('../images/nodes.png'); }
+#box-posts { background-image: url('../images/posts.png'); }
+#box-pages { background-image: url('../images/pages.png'); }
