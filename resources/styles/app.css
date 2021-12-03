@@ -47,3 +47,14 @@ html, body, select, input, textarea {
 #box-nodes { background-image: url('../images/nodes.png'); }
 #box-posts { background-image: url('../images/posts.png'); }
 #box-pages { background-image: url('../images/pages.png'); }
+
+@media (max-width: 769px) {
+  .reverse-columns-touch {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .reverse-columns-touch .column {
+    width: 100%;
+  }
+}
